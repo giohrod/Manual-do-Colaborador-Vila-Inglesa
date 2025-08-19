@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manual do Colaborador - Hotel Fazenda Mazzaropi</title>
+    <title>Manual do Colaborador - Hotel Vila Inglesa</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,7 +15,7 @@
         /* Base styles for the body */
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f0f9ff; /* Lighter blue background */
+            background-color: #f2e6e6; /* Lighter red background */
             color: #263238; /* Darker text for better contrast */
             line-height: 1.6;
         }
@@ -25,19 +25,19 @@
             width: 8px;
         }
         ::-webkit-scrollbar-track {
-            background: #e3f2fd;
+            background: #e6cccc;
         }
         ::-webkit-scrollbar-thumb {
-            background: #a7d9f7;
+            background: #9d5d5d;
             border-radius: 4px;
         }
         ::-webkit-scrollbar-thumb:hover {
-            background: #0056b3; /* Dark blue on scrollbar hover */
+            background: #7A2020; /* Dark red on scrollbar hover */
         }
 
         /* Header specific styles */
         .header-bg {
-            background-color: #004085; /* Darker blue for header for contrast with logo */
+            background-color: #7A2020; /* Darker red for header for contrast with logo */
             color: #ffffff; /* White text for header */
             padding: 1.5rem 2rem;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -60,7 +60,7 @@
 
         /* Navigation specific styles */
         .nav-bg {
-            background-color: #e3f2fd; /* Very light blue for navigation */
+            background-color: #e6cccc; /* Very light red for navigation */
             padding: 1.5rem;
             box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
             transition: width 0.3s ease-in-out;
@@ -74,19 +74,19 @@
             display: block;
             padding: 0.8rem 1.2rem;
             border-radius: 0.5rem;
-            color: #0056b3; /* Darker blue for nav links */
+            color: #7A2020; /* Darker red for nav links */
             font-weight: 500;
             text-decoration: none;
             transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease;
             margin-bottom: 0.5rem;
         }
         .sidebar a:hover {
-            background-color: #cce5ff; /* Lighter blue on hover */
-            color: #004085;
+            background-color: #f2e6e6; /* Lighter red on hover */
+            color: #823737;
             transform: translateX(5px);
         }
         .sidebar a.active {
-            background-color: #0056b3; /* Active item color (darker blue) */
+            background-color: #7A2020; /* Active item color (darker red) */
             color: white;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
             font-weight: 600;
@@ -95,7 +95,7 @@
         /* Main content area styles */
         main {
             padding: 2rem;
-            background-color: #f0f9ff; /* Consistent background for main content */
+            background-color: #f2e6e6; /* Consistent background for main content */
             flex-grow: 1; /* Allows main content to take up available space */
         }
         section {
@@ -117,31 +117,31 @@
         }
 
         .section-title {
-            color: #004085; /* Section title in darker blue */
+            color: #7A2020; /* Section title in darker red */
             font-size: 2rem;
             font-weight: 700;
             margin-bottom: 1.5rem;
-            border-bottom: 2px solid #0056b3; /* Bottom border in darker blue */
+            border-bottom: 2px solid #823737; /* Bottom border in darker red */
             padding-bottom: 0.5rem;
             display: flex;
             align-items: center;
         }
         .section-title i {
             margin-right: 0.8rem;
-            color: #0056b3; /* Title icon in darker blue */
+            color: #823737; /* Title icon in darker red */
         }
 
         /* Accordion styles */
         .accordion-item {
-            border: 1px solid #b3e5fc;
+            border: 1px solid #e6cccc;
             border-radius: 0.75rem;
             margin-bottom: 1rem;
             overflow: hidden;
             transition: all 0.3s ease;
         }
         .accordion-header {
-            background-color: #e0f7fa; /* Light cyan accordion header background */
-            color: #004d40; /* Dark green accordion header text */
+            background-color: #f2e6e6; /* Light red accordion header background */
+            color: #7A2020; /* Dark red accordion header text */
             padding: 1rem 1.5rem;
             display: flex;
             justify-content: space-between;
@@ -151,7 +151,7 @@
             transition: background-color 0.2s ease;
         }
         .accordion-header:hover {
-            background-color: #b2ebf2; /* Darker cyan on hover */
+            background-color: #e6cccc; /* Darker red on hover */
         }
         .accordion-header .fa-chevron-down {
             transition: transform 0.3s ease;
@@ -160,9 +160,9 @@
             transform: rotate(180deg);
         }
         .accordion-content {
-            background-color: #f8faff;
+            background-color: #fffafa;
             padding: 1rem 1.5rem;
-            border-top: 1px solid #b3e5fc;
+            border-top: 1px solid #e6cccc;
             transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
             max-height: 0;
             overflow: hidden;
@@ -184,7 +184,7 @@
         input[type="text"],
         input[type="date"],
         textarea {
-            border: 1px solid #a7d9f7;
+            border: 1px solid #e6cccc;
             padding: 0.75rem 1rem;
             border-radius: 0.5rem;
             font-size: 1rem;
@@ -193,8 +193,8 @@
         input[type="text"]:focus,
         input[type="date"]:focus,
         textarea:focus {
-            border-color: #0056b3; /* Darker blue on focus */
-            box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.25); /* Darker blue shadow */
+            border-color: #7A2020; /* Darker red on focus */
+            box-shadow: 0 0 0 3px rgba(122, 32, 32, 0.25); /* Darker red shadow */
             outline: none;
         }
         label {
@@ -207,7 +207,7 @@
             position: fixed;
             bottom: 20px;
             padding: 12px 20px;
-            background-color: #0056b3; /* Darker blue for nav buttons */
+            background-color: #823737; /* Darker red for nav buttons */
             color: white;
             border: none;
             border-radius: 8px;
@@ -221,7 +221,7 @@
             z-index: 100;
         }
         .page-nav-button:hover {
-            background-color: #004085; /* Even darker blue on hover */
+            background-color: #7A2020; /* Even darker red on hover */
             transform: translateY(-2px);
         }
         .page-nav-button i {
@@ -306,7 +306,7 @@
 
         /* Styles specific to the signature canvas */
         #signatureCanvas {
-            border: 1px solid #a7d9f7;
+            border: 1px solid #e6cccc;
             border-radius: 0.5rem;
             background-color: #ffffff;
             cursor: crosshair;
@@ -348,7 +348,7 @@
             text-align: center;
         }
         #generatePdfBtn {
-            background-color: #17a2b8; /* Cyan-blue color for PDF button */
+            background-color: #823737; /* Replaced blue with the new color */
             color: white;
             padding: 0.75rem 1.5rem;
             border-radius: 0.5rem;
@@ -356,10 +356,10 @@
             transition: background-color 0.2s ease;
         }
         #generatePdfBtn:hover {
-            background-color: #138496;
+            background-color: #7A2020;
         }
         #sendWhatsappBtn {
-            background-color: #25D366; /* WhatsApp green */
+            background-color: #25D366; /* WhatsApp green - keeping as is */
             color: white;
             padding: 0.75rem 1.5rem;
             border-radius: 0.5rem;
@@ -372,10 +372,10 @@
         .whatsapp-instructions {
             margin-top: 1rem;
             padding: 0.75rem;
-            background-color: #e6ffed; /* Light green background */
-            border: 1px solid #b2dfdb; /* Soft green border */
+            background-color: #e6ffed; /* Light green background - keeping as is */
+            border: 1px solid #b2dfdb; /* Soft green border - keeping as is */
             border-radius: 0.5rem;
-            color: #006633; /* Dark green text */
+            color: #006633; /* Dark green text - keeping as is */
             font-size: 0.9rem;
         }
     </style>
@@ -386,90 +386,90 @@
             <h1 class="text-white">Manual do Colaborador</h1>
         </div>
         <div class="flex items-center">
-            <img id="headerLogo" src="https://www.mazzaropi.com.br/assets/img/2024/01/logo-mazzaropi.png" alt="Logo Hotel Fazenda Mazzaropi">
+            <img id="headerLogo" src="https://irp.cdn-website.com/21576fcc/dms3rep/multi/Logo_Vila_Inglesa_H_neg.svg" alt="Logo Hotel Vila Inglesa">
         </div>
     </header>
 
     <div class="flex flex-1 flex-col md:flex-row">
         <nav class="nav-bg p-4 md:w-auto md:max-w-xs md:flex-shrink-0 md:h-auto md:overflow-y-auto sidebar">
             <ul class="flex md:flex-col space-x-2 md:space-x-0 md:space-y-2">
-                <li><a href="#boas-vindas" class="nav-link active" data-section="boas-vindas"><i class="fas fa-handshake mr-2"></i>Boas-vindas</a></li>
-                <li><a href="#quem-somos" class="nav-link" data-section="quem-somos"><i class="fas fa-building mr-2"></i>Quem Somos</a></li>
-                <li><a href="#cultura-organizacional" class="nav-link" data-section="cultura-organizacional"><i class="fas fa-users mr-2"></i>Cultura Organizacional</a></li>
-                <li><a href="#estrutura-hotel" class="nav-link" data-section="estrutura-hotel"><i class="fas fa-hotel mr-2"></i>Estrutura do Hotel</a></li>
-                <li><a href="#rotinas-rh" class="nav-link" data-section="rotinas-rh"><i class="fas fa-file-alt mr-2"></i>Rotinas de RH</a></li>
-                <li><a href="#afastamentos" class="nav-link" data-section="afastamentos"><i class="fas fa-calendar-times mr-2"></i>Afastamentos na CLT</a></li>
-                <li><a href="#beneficios" class="nav-link" data-section="beneficios"><i class="fas fa-gift mr-2"></i>Benefícios</a></li>
-                <li><a href="#conduta-normas" class="nav-link" data-section="conduta-normas"><i class="fas fa-book-open mr-2"></i>Conduta e Normas</a></li>
-                <li><a href="#seguranca-primeiros-socorros" class="nav-link" data-section="seguranca-primeiros-socorros"><i class="fas fa-shield-alt mr-2"></i>Segurança e Primeiros Socorros</a></li>
-                <li><a href="#penalidades" class="nav-link" data-section="penalidades"><i class="fas fa-gavel mr-2"></i>Penalidades</a></li>
-                <li><a href="#canais-apoio" class="nav-link" data-section="canais-apoio"><i class="fas fa-question-circle mr-2"></i>Canais de Apoio</a></li>
-                <li><a href="#assinatura-colaborador" class="nav-link" data-section="assinatura-colaborador"><i class="fas fa-pencil-alt mr-2"></i>Assinatura do Colaborador</a></li>
+                <li><a href="#boas-vindas" class="nav-link active" data-section="boas-vindas"><i class="fas fa-handshake mr-2" style="color: #823737;"></i>Boas-vindas</a></li>
+                <li><a href="#quem-somos" class="nav-link" data-section="quem-somos"><i class="fas fa-building mr-2" style="color: #823737;"></i>Quem Somos</a></li>
+                <li><a href="#cultura-organizacional" class="nav-link" data-section="cultura-organizacional"><i class="fas fa-users mr-2" style="color: #823737;"></i>Cultura Organizacional</a></li>
+                <li><a href="#estrutura-hotel" class="nav-link" data-section="estrutura-hotel"><i class="fas fa-hotel mr-2" style="color: #823737;"></i>Estrutura do Hotel</a></li>
+                <li><a href="#rotinas-rh" class="nav-link" data-section="rotinas-rh"><i class="fas fa-file-alt mr-2" style="color: #823737;"></i>Rotinas de RH</a></li>
+                <li><a href="#afastamentos" class="nav-link" data-section="afastamentos"><i class="fas fa-calendar-times mr-2" style="color: #823737;"></i>Afastamentos na CLT</a></li>
+                <li><a href="#beneficios" class="nav-link" data-section="beneficios"><i class="fas fa-gift mr-2" style="color: #823737;"></i>Benefícios</a></li>
+                <li><a href="#conduta-normas" class="nav-link" data-section="conduta-normas"><i class="fas fa-book-open mr-2" style="color: #823737;"></i>Conduta e Normas</a></li>
+                <li><a href="#seguranca-primeiros-socorros" class="nav-link" data-section="seguranca-primeiros-socorros"><i class="fas fa-shield-alt mr-2" style="color: #823737;"></i>Segurança e Primeiros Socorros</a></li>
+                <li><a href="#penalidades" class="nav-link" data-section="penalidades"><i class="fas fa-gavel mr-2" style="color: #823737;"></i>Penalidades</a></li>
+                <li><a href="#canais-apoio" class="nav-link" data-section="canais-apoio"><i class="fas fa-question-circle mr-2" style="color: #823737;"></i>Canais de Apoio</a></li>
+                <li><a href="#assinatura-colaborador" class="nav-link" data-section="assinatura-colaborador"><i class="fas fa-pencil-alt mr-2" style="color: #823737;"></i>Assinatura do Colaborador</a></li>
             </ul>
         </nav>
 
         <main class="flex-1 p-6 md:p-8 content-area">
             <section id="boas-vindas" class="active-section">
                 <h3 class="section-title">
-                    <i class="fas fa-handshake"></i>Boas-vindas
+                    <i class="fas fa-handshake" style="color: #823737;"></i>Boas-vindas
                 </h3>
-                <p class="mb-4">Seja muito bem-vindo(a) à família do Hotel Fazenda Mazzaropi! Estamos entusiasmados em tê-lo(a) conosco nesta jornada. Este manual foi cuidadosamente elaborado para ser seu guia inicial, apresentando as regras, seus direitos e deveres, além das boas práticas que cultivamos em nosso ambiente de trabalho. Nosso objetivo é que você se sinta acolhido(a) e tenha todas as informações necessárias para iniciar sua trajetória com sucesso e confiança.</p>
+                <p class="mb-4">Seja muito bem-vindo(a) à família do Hotel Vila Inglesa! Estamos entusiasmados em tê-lo(a) conosco nesta jornada. Este manual foi cuidadosamente elaborado para ser seu guia inicial, apresentando as regras, seus direitos e deveres, além das boas práticas que cultivamos em nosso ambiente de trabalho. Nosso objetivo é que você se sinta acolhido(a) e tenha todas as informações necessárias para iniciar sua trajetória com sucesso e confiança.</p>
                 <p class="mb-4">Aqui, você encontrará detalhes sobre nossa cultura, estrutura, rotinas de RH, benefícios, e muito mais. Acreditamos que a transparência e a clareza são fundamentais para construir um time forte e harmonioso. Sinta-se à vontade para explorar cada seção e, em caso de dúvidas, não hesite em procurar seus gestores ou o departamento de RH.</p>
-                <img src="https://www.mazzaropi.com.br/assets/img/2025/03/DSC00944-03.jpg" alt="Entrada do Hotel Fazenda Mazzaropi" class="w-full h-auto rounded-lg shadow-md mt-4">
+                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/03/f3/15/1f/hotel-vila-inglesa.jpg?w=900&h=500&s=1" alt="Entrada do Hotel Vila Inglesa" class="w-full h-auto rounded-lg shadow-md mt-4">
             </section>
 
             <section id="quem-somos">
     		<h3 class="section-title">
-       		    <i class="fas fa-building"></i>Quem Somos
+       		    <i class="fas fa-building" style="color: #823737;"></i>Quem Somos
     		</h3>
-    		<img src="imagens/quemsomos.png" alt="Fluxograma Quem Somos" class="w-full h-auto rounded-lg shadow-md">
+                <img src="imagens/quemsomos.png" alt="Fluxograma Quem Somos" class="w-full h-auto rounded-lg shadow-md">
 		</section>
 
 
             <section id="cultura-organizacional">
                 <h3 class="section-title">
-                    <i class="fas fa-users"></i>Cultura Organizacional
+                    <i class="fas fa-users" style="color: #823737;"></i>Cultura Organizacional
                 </h3>
-                <p class="mb-4">Nossa cultura é o coração do Hotel Fazenda Mazzaropi. Ela define como trabalhamos juntos, como interagimos com nossos hóspedes e como crescemos profissionalmente.</p>
+                <p class="mb-4">Nossa cultura é o coração do Hotel Vila Inglesa. Ela define como trabalhamos juntos, como interagimos com nossos hóspedes e como crescemos profissionalmente.</p>
                 <img src="imagens/organizacionalm.png" alt="Cultura Organizacional" class="responsive-img rounded-lg shadow-md mt-4">
             </section>
 
             <section id="estrutura-hotel">
                 <h3 class="section-title">
-                    <i class="fas fa-hotel"></i>Estrutura do Hotel
+                    <i class="fas fa-hotel" style="color: #823737;"></i>Estrutura do Hotel
                 </h3>
-                <p class="mb-2"><strong class="font-medium">Setores:</strong> O Hotel Fazenda Mazzaropi é composto por diversos setores que trabalham em sinergia para garantir a melhor experiência aos nossos hóspedes:</p>
+                <p class="mb-2"><strong class="font-medium">Setores:</strong> O Hotel Vila Inglesa é composto por diversos setores que trabalham em sinergia para garantir a melhor experiência aos nossos hóspedes:</p>
                 <ul class="list-disc list-inside space-y-1 ml-4">
-                    <li><i class="fas fa-concierge-bell text-blue-500 mr-2"></i>Recepção</li>
-                    <li><i class="fas fa-broom text-blue-500 mr-2"></i>Governança</li>
-                    <li><i class="fas fa-tools text-blue-500 mr-2"></i>Manutenção</li>
-                    <li><i class="fas fa-utensil-spoon text-blue-500 mr-2"></i>A&B (Alimentos e Bebidas)</li>
-                    <li><i class="fas fa-biking text-blue-500 mr-2"></i>Lazer</li>
-                    <li><i class="fas fa-calendar-check text-blue-500 mr-2"></i>Reservas</li>
-                    <li><i class="fas fa-landmark text-blue-500 mr-2"></i>Museu</li>
-                    <li><i class="fas fa-cogs text-blue-500 mr-2"></i>Administrativo</li>
+                    <li><i class="fas fa-concierge-bell mr-2" style="color: #823737;"></i>Recepção</li>
+                    <li><i class="fas fa-broom mr-2" style="color: #823737;"></i>Governança</li>
+                    <li><i class="fas fa-tools mr-2" style="color: #823737;"></i>Manutenção</li>
+                    <li><i class="fas fa-utensil-spoon mr-2" style="color: #823737;"></i>A&B (Alimentos e Bebidas)</li>
+                    <li><i class="fas fa-biking mr-2" style="color: #823737;"></i>Lazer</li>
+                    <li><i class="fas fa-calendar-check mr-2" style="color: #823737;"></i>Reservas</li>              
+                    <li><i class="fas fa-cogs mr-2" style="color: #823737;"></i>Administrativo</li>
                 </ul>
                 <p class="mb-2 mt-4"><strong class="font-medium">Uniforme:</strong> O uniforme é fornecido pelo hotel e deve ser utilizado diariamente, sempre limpo e em bom estado de conservação. Ele é parte da nossa identidade e profissionalismo.</p>
                 <p class="mb-2"><strong class="font-medium">Apresentação Pessoal:</strong> Valorizamos uma apresentação impecável que reflita a qualidade dos nossos serviços. Por favor, observe as seguintes diretrizes:</p>
                 <ul class="list-none space-y-1 ml-4">
-                    <li><i class="fas fa-male text-blue-500 mr-2"></i>Homens: Cabelo curto e barba feita.</li>
+                    <li><i class="fas fa-male mr-2" style="color: #823737;"></i>Homens: Cabelo curto e barba feita.</li>
                     <li><i class="fas fa-female text-pink-500 mr-2"></i>Mulheres: Cabelos presos e adornos discretos.</li>
-                    <li><i>(É proibido uso de perfumes, cremes fortes.)</i></li>
+                    <li><i>(É proibido a todos: uso de perfumes, cremes fortes.)</i></li>
                 </ul>
-                <img src="https://www.mazzaropi.com.br/assets/img/2024/12/mapa-lazer-novo-1280x898.jpg" alt="Mapa da Estrutura do Hotel" class="w-full h-auto rounded-lg shadow-md mt-4">
+                <img src="imagens/vilaguia.jpg" alt="Mapa da Estrutura do Hotel" class="w-full h-auto rounded-lg shadow-md">
+		<img src="imagens/inglesaguia.jpg" alt="Mapa da Estrutura Hotel" class="w-full h-auto rounded-lg shadow-md">
             </section>
 
             <section id="rotinas-rh">
                 <h3 class="section-title">
-                    <i class="fas fa-file-alt"></i>Rotinas de RH
+                    <i class="fas fa-file-alt" style="color: #823737;"></i>Rotinas de RH
                 </h3>
 
                 <div class="mb-4">
-                    <h4 class="text-xl font-semibold mb-2 text-gray-700"><i class="fas fa-user-tie text-blue-400 mr-2"></i>Responsáveis pelo RH e Departamento Pessoal:</h4>
+                    <h4 class="text-xl font-semibold mb-2 text-gray-700"><i class="fas fa-user-tie mr-2" style="color: #823737;"></i>Responsáveis pelo RH e Departamento Pessoal:</h4>
                     <p class="mb-2">Nossa equipe de RH está sempre à disposição para auxiliar em suas dúvidas e necessidades:</p>
                     <ul class="list-none space-y-1 ml-4">
-                        <li><i class="fas fa-user-tag text-blue-400 mr-2"></i><strong>Natalia (RH):</strong> <a href="mailto:gestaorh@mazzaropi.com.br" class="text-blue-600 hover:underline">gestaorh@mazzaropi.com.br</a></li>
-                        <li><i class="fas fa-user-tag text-blue-400 mr-2"></i><strong>Grace (Departamento Pessoal):</strong> <a href="mailto:rh@mazzaropi.com.br" class="text-blue-600 hover:underline">rh@mazzaropi.com.br</a></li>
+                        <li><i class="fas fa-user-tag mr-2" style="color: #823737;"></i><strong>Natalia (RH):</strong> <a href="mailto:gestaorh@mazzaropi.com.br" style="color: #7A2020;" class="hover:underline">gestaorh@mazzaropi.com.br</a></li>
+                        <li><i class="fas fa-user-tag mr-2" style="color: #823737;"></i><strong>Grace (Departamento Pessoal):</strong> <a href="mailto:rh@mazzaropi.com.br" style="color: #7A2020;" class="hover:underline">rh@mazzaropi.com.br</a></li>
                     </ul>
                     <p class="mt-2 text-sm text-gray-600"><strong>Horário de Funcionamento:</strong> Segunda a Sexta, das 8h às 17h48. Em caso de urgências aos fins de semana, entre em contato via WhatsApp.</p>
                 </div>
@@ -497,18 +497,18 @@
                         <li><i class="fas fa-clock text-indigo-500 mr-2"></i><strong class="font-medium">Cartão de Ponto:</strong> O registro de ponto é obrigatório e deve ser feito individualmente. É estritamente proibido registrar o ponto de colegas. São necessárias 4 marcações por dia: Entrada, saída para intervalo, retorno do intervalo e final do expediente. Qualquer necessidade de saída do hotel durante o expediente também deve ser registrada.</li>
                         <li><i class="fas fa-exclamation-triangle text-red-500 mr-2"></i><strong class="font-medium">Faltas e Atrasos:</strong> O sistema de ponto não possui tolerância. Faltas, atrasos ou esquecimento de batidas, devem ser justificados imediatamente ao seu gestor e formalizados através do preenchimento da folha de ocorrência de ponto.</li>
                         <li><i class="fas fa-calendar-alt text-teal-500 mr-2"></i><strong class="font-medium">Banco de Horas:</strong> O banco de horas é utilizado conforme a escala e a necessidade do setor, sempre em conformidade com a legislação trabalhista.</li>
-                        <li><i class="fas fa-notes-medical text-cyan-500 mr-2"></i><strong class="font-medium">Atestados/Licenças:</strong> Atestados médicos e licenças devem ser entregues imediatamente ao RH ou ao seu gestor para regularização da sua situação.</li>
+                        <li><i class="fas fa-file-medical text-cyan-500 mr-2"></i><strong class="font-medium">Atestados/Licenças:</strong> Atestados médicos e licenças devem ser entregues imediatamente ao RH ou ao seu gestor para regularização da sua situação.</li>
                     </ul>
                 </div>
             </section>
 
             <section id="afastamentos">
                 <h3 class="section-title">
-                    <i class="fas fa-calendar-times"></i>Afastamentos Previstos na CLT
+                    <i class="fas fa-calendar-times" style="color: #823737;"></i>Afastamentos Previstos na CLT
                 </h3>
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <span class="font-semibold flex items-center"><i class="fas fa-bed mr-2"></i>Afastamento de Curta Duração</span>
+                        <span class="font-semibold flex items-center"><i class="fas fa-bed mr-2" style="color: #823737;"></i>Afastamento de Curta Duração</span>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="accordion-content">
@@ -516,12 +516,13 @@
                         <p class="mb-4">Esses afastamentos são previstos principalmente no artigo 473 da CLT e garantem que o empregado possa se ausentar sem que isso seja descontado do seu salário. Eles incluem:</p>
                         <ul class="list-disc list-inside space-y-2 ml-4">
                             <li><i class="fas fa-ring text-pink-500 mr-2"></i><strong>Licença-casamento (Licença-gala):</strong> até 3 dias consecutivos em virtude do casamento.</li>
+                            <li><i class="fas fa-notes-medical text-pink-500 mr-2"></i><strong>Atestados:</strong> Médicos e odontologicos para abonar a falta, os demais serão jutificados.</li>
                             <li><i class="fas fa-cross text-gray-500 mr-2"></i><strong>Licença-óbito (Licença-nojo):</strong> até 2 dias consecutivos em caso de falecimento de cônjuge, ascendente (pais, avós), descendente (filhos, netos), irmão ou dependente econômico declarado.</li>
-                            <li><i class="fas fa-baby text-blue-500 mr-2"></i><strong>Licença-paternidade:</strong> 5 dias consecutivos a partir do nascimento do filho.</li>
+                            <li><i class="fas fa-baby mr-2" style="color: #823737;"></i><strong>Licença-paternidade:</strong> 5 dias consecutivos a partir do nascimento do filho.</li>
                             <li><i class="fas fa-tint text-red-500 mr-2"></i><strong>Doação de sangue:</strong> 1 dia a cada 12 meses, mediante comprovação.</li>
                             <li><i class="fas fa-vote-yea text-purple-500 mr-2"></i><strong>Alistamento eleitoral:</strong> até 2 dias consecutivos ou não, para se alistar como eleitor.</li>
                             <li><i class="fas fa-military-rifle text-green-500 mr-2"></i><strong>Serviço militar:</strong> o tempo necessário para o alistamento, manobras ou exercícios obrigatórios.</li>
-                            <li><i class="fas fa-user-md text-cyan-500 mr-2"></i><strong>Acompanhamento médico:</strong> Mulheres grávidas têm direito de se ausentar pelo tempo necessário para até 6 consultas e exames durante a gestação. Pais ou mães têm direito a 1 dia por ano para acompanhar filho de até 6 anos em consulta médica.</li>
+                            <li><i class="fas fa-user-md mr-2" style="color: #823737;"></i><strong>Acompanhamento médico:</strong> Mulheres grávidas têm direito de se ausentar pelo tempo necessário para até 6 consultas e exames durante a gestação. Pais ou mães têm direito a 1 dia por ano para acompanhar filho de até 6 anos em consulta médica ou internação.</li>
                             <li><i class="fas fa-graduation-cap text-orange-500 mr-2"></i><strong>Exame vestibular:</strong> os dias de provas para ingresso em ensino superior, desde que seja comprovada a participação.</li>
                             <li><i class="fas fa-users-class text-teal-500 mr-2"></i><strong>Representação sindical:</strong> os dias em que o empregado atua em reuniões oficiais como representante de sindicato.</li>
                             <li><i class="fas fa-gavel text-brown-500 mr-2"></i><strong>Testemunha ou jurado:</strong> o tempo necessário para comparecer em juízo, em caso de convocação para depor ou atuar como jurado.</li>
@@ -531,7 +532,7 @@
                 
                  <div class="accordion-item">
                       <div class="accordion-header">
-                            <span class="font-semibold flex items-center"><i class="fas fa-clinic-medical mr-2"></i>Afastamentos por Saúde ou Maternidade</span>
+                            <span class="font-semibold flex items-center"><i class="fas fa-clinic-medical mr-2" style="color: #823737;"></i>Afastamentos por Saúde ou Maternidade</span>
                             <i class="fas fa-chevron-down"></i>
                         </div>
                         <div class="accordion-content">
@@ -540,12 +541,12 @@
                             <ul class="list-disc list-inside space-y-2 ml-4">
                                 <li><i class="fas fa-syringe text-green-500 mr-2"></i><strong>Afastamento por doença ou acidente:</strong>
                                     <ul class="list-none space-y-1 ml-6">
-                                        <li><i class="fas fa-pills text-yellow-500 mr-2"></i><strong>Até 15 dias:</strong> o afastamento por motivo de saúde (doença ou acidente) é de responsabilidade da empresa, que deve pagar o salário integral do empregado. O trabalhador precisa apresentar um atestado médico válido.</li>
+                                        <li><i class="fas fa-pills text-yellow-500 mr-2"></i><strong>Até 15 dias:</strong> o afastamento por motivo de saúde (doença ou acidente. O trabalhador precisa apresentar um atestado médico válido.</li>
                                         <li><i class="fas fa-microscope text-blue-500 mr-2"></i><strong>Realização de exames preventivos contra o câncer:</strong> O empregado pode se ausentar por até três dias a cada 12 meses para realizar exames preventivos contra o câncer.</li>
                                         <li><i class="fas fa-hospital-user text-red-500 mr-2"></i><strong>A partir do 16º dia:</strong> se o afastamento for superior a 15 dias, o trabalhador deve solicitar o auxílio-doença junto ao INSS (atualmente chamado de Auxílio por Incapacidade Temporária), que será responsável pelo pagamento do benefício. O empregado passará por uma perícia médica para comprovar a incapacidade.</li>
                                     </ul>
                                 </li>
-                                <li><i class="fas fa-venus text-pink-500 mr-2"></i><strong>Licença-maternidade:</strong> a empregada gestante tem direito a 120 dias de licença. O salário-maternidade é pago pelo INSS.</li>
+                                <li><i class="fas fa-venus text-pink-500 mr-2"></i><strong>Licença-maternidade:</strong> a empregada gestante tem direito a 120 dias de licença</li>
                             </ul>
                         </div>
                     </div>
@@ -553,9 +554,9 @@
 
             <section id="beneficios">
                 <h3 class="section-title">
-                    <i class="fas fa-gift"></i>Benefícios
+                    <i class="fas fa-gift" style="color: #823737;"></i>Benefícios
                 </h3>
-                <p class="mb-4">No Hotel Fazenda Mazzaropi, valorizamos nossos colaboradores e oferecemos um pacote de benefícios pensado para o seu bem-estar e o de sua família:</p>
+                <p class="mb-4">No Hotel Vila Inglesa, valorizamos nossos colaboradores e oferecemos um pacote de benefícios pensado para o seu bem-estar e o de sua família:</p>
                 <div class="space-y-4">
                     <div class="accordion-item">
                         <div class="accordion-header">
@@ -574,7 +575,7 @@
                             <i class="fas fa-chevron-down"></i>
                         </div>
                         <div class="accordion-content">
-                            <p><strong>Valor:</strong> R$ 493,00 (creditado na folha de pagamento). Destinado para suas refeições em restaurantes e lanchonetes, proporcionando flexibilidade para suas escolhas alimentares fora do hotel.</p>
+                            <p><strong>Valor:</strong> R$ 10,60 por dia trabalhado (creditado na folha de pagamento). Destinado para suas refeições em restaurantes e lanchonetes, proporcionando flexibilidade para suas escolhas alimentares fora do hotel.</p>
                         </div>
                     </div>
 
@@ -584,40 +585,32 @@
                             <i class="fas fa-chevron-down"></i>
                         </div>
                         <div class="accordion-content">
-                            <p><strong>Valor:</strong> R$ 140,00/pessoa/mês + coparticipação.</p>
+                            <p><strong>Valor:</strong> R$ 140,71/pessoa/mês + coparticipação em exames, consultas e internação.</p>
                             <p class="mt-2 mb-2">Nosso convênio com a Unimed oferece cobertura médica abrangente. Para inclusão, são necessários os seguintes documentos (cópias):</p>
                             <div class="space-y-3">
                                 <div>
-                                    <h5 class="font-semibold text-gray-800"><i class="fas fa-user text-blue-500 mr-2"></i>Para o Titular:</h5>
+                                    <h5 class="font-semibold text-gray-800"><i class="fas fa-user mr-2" style="color: #823737;"></i>Para o Titular:</h5>
                                     <ul class="list-disc list-inside ml-4 text-gray-700">
-                                        <li><i class="fas fa-id-card-clip text-gray-500 mr-2"></i>Registro da empresa na carteira de trabalho digital</li>
-                                        <li><i class="fas fa-address-card text-gray-500 mr-2"></i>RG e CPF</li>
-                                        <li><i class="fas fa-map-marker-alt text-gray-500 mr-2"></i>Comprovante de endereço atualizado em nome do titular</li>
-                                        <li><i class="fas fa-hospital-user text-gray-500 mr-2"></i>Cartão do SUS</li>
+                                        <li><i class="fas fa-id-card-clip mr-2" style="color: #823737;"></i>Registro da empresa na carteira de trabalho digital</li>
+                                        <li><i class="fas fa-address-card mr-2" style="color: #823737;"></i>RG e CPF</li>
+                                        <li><i class="fas fa-map-marker-alt mr-2" style="color: #823737;"></i>Comprovante de endereço atualizado em nome do titular</li>
+                                        <li><i class="fas fa-hospital-user mr-2" style="color: #823737;"></i>Cartão do SUS</li>
                                     </ul>
                                 </div>
                                 <div>
-                                    <h5 class="font-semibold text-gray-800"><i class="fas fa-female text-pink-500 mr-2"></i>Para Esposa:</h5>
+                                    <h5 class="font-semibold text-gray-800"><i class="fas fa-female mr-2" style="color: #823737;"></i>Para Esposa:</h5>
                                     <ul class="list-disc list-inside ml-4 text-gray-700">
-                                        <li><i class="fas fa-certificate text-gray-500 mr-2"></i>Certidão de casamento</li>
-                                        <li><i class="fas fa-address-card text-gray-500 mr-2"></i>RG e CPF</li>
-                                        <li><i class="fas fa-hospital-user text-gray-500 mr-2"></i>Cartão do SUS</li>
+                                        <li><i class="fas fa-certificate mr-2" style="color: #823737;"></i>Certidão de casamento ou União estável</li>
+                                        <li><i class="fas fa-address-card mr-2" style="color: #823737;"></i>RG e CPF</li>
+                                        <li><i class="fas fa-hospital-user mr-2" style="color: #823737;"></i>Cartão do SUS</li>
                                     </ul>
                                 </div>
-                                <div>
-                                    <h5 class="font-semibold text-gray-800"><i class="fas fa-hands-heart text-purple-500 mr-2"></i>Para Companheira(o):</h5>
+                                <div>              
+                                    <h5 class="font-semibold text-gray-800"><i class="fas fa-child mr-2" style="color: #823737;"></i>Para Filhos(as) até 14 anos:</h5>
                                     <ul class="list-disc list-inside ml-4 text-gray-700">
-                                        <li><i class="fas fa-certificate text-gray-500 mr-2"></i>Certidão de união estável</li>
-                                        <li><i class="fas fa-address-card text-gray-500 mr-2"></i>RG e CPF</li>
-                                        <li><i class="fas fa-hospital-user text-gray-500 mr-2"></i>Cartão do SUS</li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <h5 class="font-semibold text-gray-800"><i class="fas fa-child text-orange-500 mr-2"></i>Para Filhos(as) até 14 anos:</h5>
-                                    <ul class="list-disc list-inside ml-4 text-gray-700">
-                                        <li><i class="fas fa-certificate text-gray-500 mr-2"></i>Certidão de nascimento</li>
-                                        <li><i class="fas fa-address-card text-gray-500 mr-2"></i>CPF (e RG, caso tenha)</li>
-                                        <li><i class="fas fa-hospital-user text-gray-500 mr-2"></i>Cartão do SUS</li>
+                                        <li><i class="fas fa-certificate mr-2" style="color: #823737;"></i>Certidão de nascimento</li>
+                                        <li><i class="fas fa-address-card mr-2" style="color: #823737;"></i>CPF (e RG, caso tenha)</li>
+                                        <li><i class="fas fa-hospital-user mr-2" style="color: #823737;"></i>Cartão do SUS</li>
                                     </ul>
                                 </div>
                             </div>
@@ -636,9 +629,9 @@
                                 <strong class="font-medium">Para inclusão de dependentes:</strong>
                                 <br>É necessário trazer cópia legível dos seguintes documentos do dependente ao RH:
                                 <ul class="list-disc list-inside space-y-1 ml-4">
-                                    <li><i class="fas fa-id-card text-gray-500 mr-2"></i>CPF/RG</li>
-                                    <li><i class="fas fa-file-alt text-gray-500 mr-2"></i>Certidão de Nascimento</li>
-                                    <li><i class="fas fa-home text-gray-500 mr-2"></i>Comprovante de Endereço</li>
+                                    <li><i class="fas fa-id-card mr-2" style="color: #823737;"></i>CPF/RG</li>
+                                    <li><i class="fas fa-file-alt mr-2" style="color: #823737;"></i>Certidão de Nascimento</li>
+                                    <li><i class="fas fa-home mr-2" style="color: #823737;"></i>Comprovante de Endereço</li>
                                 </ul>
                                 Após a entrega dos documentos, preencha o formulário de inclusão no RH. Por dependente será descontado o valor de R$ 14,55/mês, utilizando ou não o convênio.
                             </p>
@@ -655,19 +648,19 @@
                             <p>Disponível em cartão ou dinheiro, com desconto de 6% do salário, conforme legislação. Para solicitar ou alterar seu vale-transporte, procure o Departamento Pessoal.</p>
                         </div>
                     </div>
-
-                    <div class="accordion-item">
+                   
+		    <div class="accordion-item">
                         <div class="accordion-header">
                             <span class="font-semibold flex items-center"><i class="fas fa-coffee mr-2"></i>Refeição na cantina</span>
                             <i class="fas fa-chevron-down"></i>
                         </div>
                         <div class="accordion-content">
-                            <p>Oferecemos refeições diárias na cantina do hotel, nos seguintes horários:</p>
-                            <ul class="list-disc list-inside space-y-1 ml-4">
-                                <li><i class="fas fa-sun text-yellow-500 mr-2"></i>Almoço: das 11h às 13h</li>
-                                <li><i class="fas fa-moon text-indigo-500 mr-2"></i>Jantar: das 17h às 18h</li>
+                            <p>O hotel pode oferecer aos colaboradores a oportunidade de degustar uma amostra do buffet. Caso o colaborador optar, entrar em contato com o RH.</p>
+                            <ul class="list-disc list-inside space-y-1 ml-4 mt-2">
+                                <li>Oferecemos refeições (Marmitex diária) na cantina do hotel.</li>
+                                <li>No horário do almoço e do jantar.</li>
                             </ul>
-                            <p class="mt-2">A permanência máxima na cantina é de 30 minutos. Pedimos que evite ouvir música em volume alto e falar muito alto, pois este é um horário de intervalo e descanso para todos. Caso haja algum atraso para a refeição, por favor, peça ao seu líder que comunique o cozinheiro da cantina para que uma marmita seja separada para você.</p>
+                            <p class="mt-2">Pedimos que evite ouvir música em volume alto e falar muito alto, pois este é um horário de intervalo e descanso para todos.</p>
                         </div>
                     </div>
 
@@ -677,7 +670,7 @@
                             <i class="fas fa-chevron-down"></i>
                         </div>
                         <div class="accordion-content">
-                            <p>Acesse seu holerite de forma prática e segura pelo aplicativo <strong>Intsys CRM</strong>. As informações de acesso serão fornecidas pelo Departamento Pessoal.</p>
+                            <p>Acesse seu holerite de forma prática e segura pelo aplicativo <strong>Intsys CRM</strong>. As informações de acesso serão fornecidas pelo Departamento Pessoal e o login é seu próprio e-mail.</p>
                             <img src="https://www.intsys.com.br/assets/images/logo-intsys.png" alt="Acesso ao holerite" class="w-full h-auto rounded-lg shadow-md mt-4">
                         </div>
                     </div>
@@ -701,7 +694,7 @@
                         </div>
                         <div class="accordion-content">
                             <p>Acesso a consultas médicas online para sua comodidade e bem-estar, a qualquer hora e em qualquer lugar. Este serviço proporciona agilidade no atendimento e evita deslocamentos desnecessários.</p>
-                            <iframe src="https://drive.google.com/file/d/1VU9BU0fFQlLcdvoZfgtnQeRRbZVsy64P/preview" width="100%" height="800px" style="border: none;"></iframe>
+                            <iframe src="https://drive.google.com/file/d/1TKxXeR5baUPTO0_s6up5XcTTmv3Ehpik/preview" width="100%" height="800px" style="border: none;"></iframe>
                         </div>
                     </div>
 
@@ -725,7 +718,7 @@
                             <i class="fas fa-chevron-down"></i>
                         </div>
                         <div class="accordion-content">
-                            <p>Como colaborador do Hotel Fazenda Mazzaropi, você tem acesso aos benefícios e serviços oferecidos pelo SESC, incluindo atividades de lazer, cultura, educação e saúde, com condições especiais.</p>
+                            <p>Como colaborador do Hotel Vila Inglesa, você tem acesso aos benefícios e serviços oferecidos pelo SESC, incluindo atividades de lazer, cultura, educação e saúde, com condições especiais.</p>
                             <iframe src="https://drive.google.com/file/d/1uR6Nj2DRWqXWCiwgOfMxIhx7AWb33aJX/preview" width="100%" height="800px" style="border: none;"></iframe>
                         </div>
                     </div>
@@ -734,7 +727,7 @@
 
             <section id="conduta-normas">
                 <h3 class="section-title">
-                    <i class="fas fa-book-open"></i>Conduta e Normas
+                    <i class="fas fa-book-open" style="color: #823737;"></i>Conduta e Normas
                 </h3>
                 <p class="mb-4">Para garantir um ambiente de trabalho harmonioso, seguro e produtivo, é fundamental que todos os colaboradores sigam as seguintes normas de conduta:</p>
                 <div class="mb-4">
@@ -764,20 +757,20 @@
 
             <section id="seguranca-primeiros-socorros">
                 <h3 class="section-title">
-                    <i class="fas fa-shield-alt"></i>Segurança e Primeiros Socorros
+                    <i class="fas fa-shield-alt" style="color: #823737;"></i>Segurança e Primeiros Socorros
                 </h3>
                 <p class="mb-4">Sua segurança é nossa prioridade. Fique atento às seguintes diretrizes:</p>
                 <ul class="list-none space-y-2">
                     <li><i class="fas fa-fire-extinguisher text-orange-500 mr-2"></i><strong>Extintores:</strong> Conheça a localização dos extintores de incêndio no seu setor.</li>
                     <li><i class="fas fa-first-aid text-red-500 mr-2"></i><strong>Kit de Primeiros Socorros:</strong> Em caso de pequenos acidentes, procure o kit de primeiros socorros no seu setor ou no departamento de RH.</li>
-                    <li><i class="fas fa-phone-alt text-blue-500 mr-2"></i><strong>Emergências:</strong> Em caso de emergências graves, contate a portaria ou o gestor imediatamente.</li>
+                    <li><i class="fas fa-phone-alt text-blue-500 mr-2"></i><strong>Emergências:</strong> Em caso de emergências graves, contate a recepção ou o gestor imediatamente, para acionar o Samu ou life corp.</li>
                     <li><i class="fas fa-hard-hat text-green-500 mr-2"></i><strong>Equipamentos de Proteção Individual (EPIs):</strong> O uso de EPIs é obrigatório para as funções que os exigem. Mantenha seus EPIs em bom estado e utilize-os corretamente.</li>
                 </ul>
             </section>
 
             <section id="penalidades">
                 <h3 class="section-title">
-                    <i class="fas fa-gavel"></i>Penalidades
+                    <i class="fas fa-gavel" style="color: #823737;"></i>Penalidades
                 </h3>
                 <p class="mb-4">O descumprimento das normas e políticas da empresa pode acarretar em penalidades, de acordo com a legislação trabalhista e a gravidade da falta:</p>
                 <ul class="list-disc list-inside space-y-2">
@@ -791,37 +784,30 @@
 
             <section id="canais-apoio">
                 <h3 class="section-title">
-                    <i class="fas fa-question-circle"></i>Canais de Apoio
+                    <i class="fas fa-question-circle" style="color: #823737;"></i>Canais de Apoio
                 </h3>
                 <p class="mb-4">Se você tiver dúvidas, preocupações ou precisar de apoio, utilize os seguintes canais:</p>
                 <div class="space-y-4">
                     <div class="flex items-start">
-                        <i class="fas fa-user-friends text-blue-500 text-xl mr-4 mt-1"></i>
+                        <i class="fas fa-user-friends mr-4 mt-1" style="color: #823737; font-size: 20px;"></i>
                         <div>
                             <h4 class="font-semibold text-gray-800">Seu Gestor Direto</h4>
                             <p class="text-gray-600">O seu gestor é a primeira pessoa a ser procurada para questões do dia a dia, feedbacks ou problemas relacionados à sua função.</p>
                         </div>
                     </div>
                     <div class="flex items-start">
-                        <i class="fas fa-headset text-green-500 text-xl mr-4 mt-1"></i>
+                        <i class="fas fa-headset mr-4 mt-1" style="color: #823737; font-size: 20px;"></i>
                         <div>
                             <h4 class="font-semibold text-gray-800">Departamento de Recursos Humanos (RH)</h4>
-                            <p class="text-gray-600">Para questões sobre salário, benefícios, férias, atestados médicos e outras rotinas de pessoal. Você pode entrar em contato diretamente com Natalia (RH) ou Grace (Departamento Pessoal).</p>
-                        </div>
-                    </div>
-                    <div class="flex items-start">
-                        <i class="fas fa-lock text-red-500 text-xl mr-4 mt-1"></i>
-                        <div>
-                            <h4 class="font-semibold text-gray-800">Canal de Denúncias</h4>
-                            <p class="text-gray-600">Disponibilizamos um canal de denúncias para reportar anonimamente condutas antiéticas, assédio, ou outras irregularidades, garantindo total confidencialidade.</p>
-                        </div>
+                            <p class="text-gray-600">Para questões pessoais ou tratativas sigilosas, salário, benefícios, férias, atestados médicos e outras rotinas de pessoal. Você pode entrar em contato diretamente com Natalia (RH) ou Grace (Departamento Pessoal).</p>
+                        </div>                  
                     </div>
                 </div>
             </section>
 
             <section id="assinatura-colaborador">
                 <h3 class="section-title">
-                    <i class="fas fa-pencil-alt"></i> Assinatura do Colaborador
+                    <i class="fas fa-pencil-alt" style="color: #823737;"></i> Assinatura do Colaborador
                 </h3>
                 <p class="mb-4 text-gray-700">
                     Ao assinar abaixo, você confirma que leu e compreendeu todas as informações
@@ -832,19 +818,19 @@
                 <div class="bg-gray-50 p-6 rounded-lg shadow-inner border border-gray-200">
                     <div class="flex flex-col md:flex-row md:items-center mb-4 gap-4">
                         <div class="md:w-1/3">
-                            <label for="employeeName" class="block text-sm font-medium text-gray-700"><i class="fas fa-user mr-2 text-blue-500"></i>Nome Completo:</label>
+                            <label for="employeeName" class="block text-sm font-medium text-gray-700"><i class="fas fa-user mr-2 text-black-500"></i>Nome Completo:</label>
                             <input type="text" id="employeeName" name="employeeName"
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                                 required>
                         </div>
                         <div class="md:w-1/3">
-                            <label for="employeeCpf" class="block text-sm font-medium text-gray-700"><i class="fas fa-id-card-alt mr-2 text-blue-500"></i>Setor:</label>
+                            <label for="employeeCpf" class="block text-sm font-medium text-gray-700"><i class="fas fa-id-card-alt mr-2 text-black-500"></i>Setor:</label>
                             <input type="text" id="employeeCpf" name="employeeCpf"
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                                 required>
                         </div>
                         <div class="md:w-1/3">
-                            <label for="signatureDate" class="block text-sm font-medium text-gray-700"><i class="fas fa-calendar-day mr-2 text-blue-500"></i>Data de Recebimento:</label>
+                            <label for="signatureDate" class="block text-sm font-medium text-gray-700"><i class="fas fa-calendar-day mr-2 text-black-500"></i>Data de Recebimento:</label>
                             <input type="date" id="signatureDate" name="signatureDate"
                                 class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                                 required>
@@ -870,7 +856,7 @@
                     </div>
                     
                     <div class="whatsapp-instructions mt-4 p-3 hidden" id="whatsappInstructions">
-                        <p>O PDF foi gerado. Clique no botão do WhatsApp para enviar o documento para o RH do Hotel Fazenda Mazzaropi. <br>Lembre-se de anexar o PDF gerado manualmente na conversa, pois o envio de arquivos por link direto não é permitido por questões de segurança.</p>
+                        <p>O PDF foi gerado. Clique no botão do WhatsApp para enviar o documento para o RH do Hotel Vila Inglesa. <br>Lembre-se de anexar o PDF gerado manualmente na conversa, pois o envio de arquivos por link direto não é permitido por questões de segurança.</p>
                         <p class="mt-2 text-xs text-gray-500">Se o aplicativo não abrir automaticamente, o número do RH é: +55 12 99705-6838.</p>
                     </div>
                 </div>
@@ -1087,7 +1073,7 @@
 
                 // Declaração de Aceite
                 doc.setFontSize(12);
-                const declarationText = "Declaro que li e compreendi o Manual do Colaborador do Hotel Fazenda Mazzaropi, e concordo em cumprir todas as políticas, normas e procedimentos nele contidos.";
+                const declarationText = "Declaro que li e compreendi o Manual do Colaborador do Hotel Vila Inglesa, e concordo em cumprir todas as políticas, normas e procedimentos nele contidos.";
                 const splitText = doc.splitTextToSize(declarationText, pdfWidth - 2 * margin);
                 doc.text(splitText, margin, y);
                 y += splitText.length * 8; // Adjust based on line height
@@ -1132,7 +1118,7 @@
             if (nameInput.value) {
                 const whatsappNumber = "5512997056838";
                 const employeeName = nameInput.value;
-                const message = encodeURIComponent(`Olá, RH do Hotel Fazenda Mazzaropi! Eu, ${employeeName}, estou enviando meu Termo de Recebimento do Manual do Colaborador.`);
+                const message = encodeURIComponent(`Olá, RH do Hotel Vila Inglesa! Eu, ${employeeName}, estou enviando meu Termo de Recebimento do Manual do Colaborador.`);
                 const whatsappUrl = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${message}`;
                 
                 window.open(whatsappUrl, '_blank');
